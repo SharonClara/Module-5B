@@ -12,8 +12,19 @@ To write a **NumPy** program that deletes the second column from a given 2D arra
 
 ## 🧾 Program
 
-Add code here
-
+```
+import numpy as np
+x=np.array(eval(input()))
+y=np.array(eval(input()))
+great=np.where(x>y)
+equal=np.where(x==y)
+print(great)
+print(equal)
+```
 ## Output
 
+<img width="1399" height="289" alt="547469754-251b5e99-e93d-4e4b-98c0-3e18ef3bef4c" src="https://github.com/user-attachments/assets/740abf94-bd60-4072-b7aa-64248fe8a867" />
+
+
 ## Result
+Thus, the program was executed successfully.
